@@ -4,6 +4,9 @@ require 'sinatra'
 get '/' do
   sentence = params[:sentence] || "こんにちは世界"
   tagger = MeCab::Tagger.new
-  tagger.parse(sentence).to_s
+  res = tagger.parse(sentence).to_s
+
+  content_type 'text/plain'
+  res
 end
 
