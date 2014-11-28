@@ -1,0 +1,15 @@
+{
+  "name": "Mecab on Heroku example",
+  "keywords": [
+    "mecab",
+    "example"
+  ],
+  "website": "https://github.com/hanachin/mecab-example/",
+  "repository": "https://github.com/hanachin/mecab-example",
+  "success_url": "/?sentence=こんにちは世界",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/hanachin/heroku-buildpack-mecab.git",
+    "LD_LIBRARY_PATH": "/app/vendor/mecab/lib"
+  },
+  "addons": []
+}

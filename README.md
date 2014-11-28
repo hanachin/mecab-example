@@ -2,6 +2,10 @@
 
 run mecab on heroku example.
 
+## Deploying to Heroku
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Installation
 
 ```
